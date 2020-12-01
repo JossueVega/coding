@@ -42,8 +42,8 @@
   <div id="topbar" class="d-flex align-items-center fixed-top">
     <div class="container d-flex">
       <div class="contact-info mr-auto">
-        <i class="icofont-phone"></i> +1 5589 55488 55
-        <span class="d-none d-lg-inline-block"><i class="icofont-clock-time icofont-rotate-180"></i> Mon-Sat: 11:00 AM - 23:00 PM</span>
+        <i class="icofont-phone"></i> 664 563 6743
+        <span class="d-none d-lg-inline-block"><i class="icofont-clock-time icofont-rotate-180"></i> Lunes a Sabado: 11:00 AM - 23:00 PM</span>
       </div>
       <div class="languages">
         <ul>
@@ -58,7 +58,7 @@
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center">
 
-      <h1 class="logo mr-auto"><a href="<?php echo base_url(); ?>">Restaurantly</a></h1>
+      <h1 class="logo mr-auto"><a href="<?php echo base_url(); ?>">CAFE BD</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo mr-auto"><img src="<?php echo base_url(); ?>resources/images/logo.png" alt="" class="img-fluid"></a>-->
 
@@ -66,7 +66,7 @@
         <ul>
           <li class="active"><a href="<?php echo base_url(); ?>">Home</a></li>
           <li><a href="<?php echo base_url(); ?>Home/acerca">About</a></li>
-          <li><a href="#menu">Menu</a></li>
+          <li><a href="<?php echo base_url(); ?>Category">Menu</a></li>
           <li><a href="<?php echo base_url(); ?>Home/Cafes">Cafes</a> </li>
           <li><a href="#specials">Specials</a></li>
           <li><a href="#events">Events</a></li>
