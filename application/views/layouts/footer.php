@@ -1,4 +1,5 @@
 <!-- ======= Footer ======= -->
+<!-- ======= Footer ======= -->
 <footer id="footer">
   <div class="footer-top">
     <div class="container">
@@ -6,7 +7,7 @@
 
         <div class="col-lg-3 col-md-6">
           <div class="footer-info">
-            <h3>Restaurantly</h3>
+            <h3>GAp<span>.</span></h3>
             <p>
               A108 Adam Street <br>
               NY 535022, USA<br><br>
@@ -60,33 +61,35 @@
 
   <div class="container">
     <div class="copyright">
-      &copy; Copyright <strong><span>Restaurantly</span></strong>. All Rights Reserved
+      &copy; Copyright <strong><span>GAp</span></strong>. All Rights Reserved
     </div>
     <div class="credits">
       <!-- All the links in the footer should remain intact. -->
       <!-- You can delete the links only if you purchased the pro version. -->
       <!-- Licensing information: https://bootstrapmade.com/license/ -->
-      <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/restaurantly-restaurant-template/ -->
+      <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/ -->
       Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
     </div>
   </div>
 </footer><!-- End Footer -->
 
+<a href="#" class="back-to-top"><i class="ri-arrow-up-line"></i></a>
 <div id="preloader"></div>
-<a href="#" class="back-to-top"><i class="bx bx-up-arrow-alt"></i></a>
 
 <!-- Vendor JS Files -->
-<script src="<?php echo base_url(); ?>resources/vendor/jquery/jquery.min.js"></script>
-<script src="<?php echo base_url(); ?>resources/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="<?php echo base_url(); ?>resources/vendor/jquery.easing/jquery.easing.min.js"></script>
-<script src="<?php echo base_url(); ?>resources/vendor/php-email-form/validate.js"></script>
-<script src="<?php echo base_url(); ?>resources/vendor/owl.carousel/owl.carousel.min.js"></script>
-<script src="<?php echo base_url(); ?>resources/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-<script src="<?php echo base_url(); ?>resources/vendor/venobox/venobox.min.js"></script>
-<script src="<?php echo base_url(); ?>resources/vendor/aos/aos.js"></script>
+<script src="<?php echo base_url(); ?>Resources/vendor/jquery/jquery.min.js"></script>
+<script src="<?php echo base_url(); ?>Resources/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="<?php echo base_url(); ?>Resources/vendor/jquery.easing/jquery.easing.min.js"></script>
+<script src="<?php echo base_url(); ?>Resources/vendor/php-email-form/validate.js"></script>
+<script src="<?php echo base_url(); ?>Resources/vendor/owl.carousel/owl.carousel.min.js"></script>
+<script src="<?php echo base_url(); ?>Resources/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+<script src="<?php echo base_url(); ?>Resources/vendor/venobox/venobox.min.js"></script>
+<script src="<?php echo base_url(); ?>Resources/vendor/waypoints/jquery.waypoints.min.js"></script>
+<script src="<?php echo base_url(); ?>Resources/vendor/counterup/counterup.min.js"></script>
+<script src="<?php echo base_url(); ?>Resources/vendor/aos/aos.js"></script>
 
 <!-- Template Main JS File -->
-<script src="<?php echo base_url(); ?>resources/js/main.js"></script>
+<script src="<?php echo base_url(); ?>Resources/js/main.js"></script>
 
 </body>
 
