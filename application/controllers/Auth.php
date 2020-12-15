@@ -24,7 +24,8 @@ class Auth extends CI_Controller{
   {
     $correo=$this->input->post('correo');
     $pasword=$this->input->post('pasword');
-    $user=$this->User_Model->GetUser($correo,$password);
+    $user=$this->User_Model->GetUser($correo,$pasword);
+    
     if (!$user) {
     $this->session->set_flashdata("Error", "El usuario no ha introducido los datos correctamente");
      redirect (base_url());
