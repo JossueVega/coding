@@ -396,7 +396,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background-image: url("<?php echo base_url(); ?>Resources/images/solo-bg.jpg") top center;
+  background-image: url('../images/solo-bg.jpg');
   background-size: cover;
   position: relative;
 }
@@ -709,7 +709,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("<?php echo base_url(); ?>Resources/images/cta-bg.jpg") fixed center center;
+  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../images/cta-bg.jpg") fixed center center;
   background-size: cover;
   padding: 60px 0;
 }
