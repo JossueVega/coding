@@ -11,6 +11,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
+  background-color: rgb(109, 190, 123);
 }
 
 a {
@@ -1140,7 +1141,7 @@ section {
 --------------------------------------------------------------*/
 .contact .info {
   width: 100%;
-  background: #fff;
+  background-color: rgb(109, 190, 123);
 }
 
 .contact .info i {
@@ -1178,7 +1179,7 @@ section {
 
 .contact .php-email-form {
   width: 100%;
-  background: #fff;
+  background-color: rgb(109, 190, 123);
 }
 
 .contact .php-email-form .form-group {
