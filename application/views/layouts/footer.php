@@ -8,12 +8,12 @@
         <div class="col-lg-3 col-md-6">
           <div class="footer-info">
             <h3>GAp<span>.</span></h3>
-            <p>
+            <!-- <p>
               A108 Adam Street <br>
               NY 535022, USA<br><br>
               <strong>Phone:</strong> +1 5589 55488 55<br>
               <strong>Email:</strong> info@example.com<br>
-            </p>
+            </p> -->
             <div class="social-links mt-3">
               <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
               <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
@@ -27,15 +27,15 @@
         <div class="col-lg-2 col-md-6 footer-links">
           <h4>Useful Links</h4>
           <ul>
-            <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-            <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-            <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-            <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-            <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Inicio</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Serializacions</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Noticias</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Manga y animes</a></li>
+            <li><i class="bx bx-chevron-right"></i> <a href="#">Contactos</a></li>
           </ul>
         </div>
 
-        <div class="col-lg-3 col-md-6 footer-links">
+        <!-- <div class="col-lg-3 col-md-6 footer-links">
           <h4>Our Services</h4>
           <ul>
             <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
@@ -44,7 +44,7 @@
             <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
             <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
           </ul>
-        </div>
+        </div> -->
 
         <div class="col-lg-4 col-md-6 footer-newsletter">
           <h4>Our Newsletter</h4>

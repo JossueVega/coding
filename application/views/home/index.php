@@ -77,7 +77,7 @@
   </section><!-- End About Section -->
 
   <!-- ======= Clients Section ======= -->
-  <section id="clients" class="clients">
+  <!-- <section id="clients" class="clients">
     <div class="container" data-aos="zoom-in">
 
       <div class="owl-carousel clients-carousel">
@@ -92,7 +92,7 @@
       </div>
 
     </div>
-  </section><!-- End Clients Section -->
+  </section> --> <!-- End Clients Section -->
 
   <!-- ======= Features Section ======= -->
   <!-- <section id="features" class="features">
@@ -253,7 +253,7 @@
 
               <div class="portfolio-links">
                 <a href="<?php echo base_url(); ?>Resources/images/portfolio/slime-portada.jpg" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="https://i.pinimg.com/originals/27/dc/26/27dc26fff8e6a79dc6e2a530fe2af32e.png" target="_blank" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
@@ -267,7 +267,7 @@
 
               <div class="portfolio-links">
                 <a href="<?php echo base_url(); ?>Resources/images/portfolio/dragon-ball.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="" target="_blank" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
@@ -281,7 +281,7 @@
 
               <div class="portfolio-links">
                 <a href="<?php echo base_url(); ?>Resources/images/portfolio/black-clover.jpg" data-gall="portfolioGallery" class="venobox" title="App 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="" target="_blank" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
@@ -295,7 +295,7 @@
 
               <div class="portfolio-links">
                 <a href="<?php echo base_url(); ?>Resources/images/portfolio/naruto.jpg" data-gall="portfolioGallery" class="venobox" title="Card 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="" target="_blank" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
@@ -309,7 +309,7 @@
 
               <div class="portfolio-links">
                 <a href="<?php echo base_url(); ?>Resources/images/portfolio/re-zero.jpg" data-gall="portfolioGallery" class="venobox" title="Web 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="" target="_blank" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
@@ -323,7 +323,7 @@
 
               <div class="portfolio-links">
                 <a href="<?php echo base_url(); ?>Resources/images/portfolio/after-end.jpg" data-gall="portfolioGallery" class="venobox" title="App 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="" target="_blank" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
@@ -337,7 +337,7 @@
 
               <div class="portfolio-links">
                 <a href="<?php echo base_url(); ?>Resources/images/portfolio/Tower-of-God-portada.jpg" data-gall="portfolioGallery" class="venobox" title="Card 1"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="" target="_blank" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
@@ -351,7 +351,7 @@
 
               <div class="portfolio-links">
                 <a href="<?php echo base_url(); ?>Resources/images/portfolio/Dr-Stone-Poster.jpg" data-gall="portfolioGallery" class="venobox" title="Card 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="" target="_blank" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
@@ -365,7 +365,7 @@
 
               <div class="portfolio-links">
                 <a href="<?php echo base_url(); ?>Resources/images/portfolio/Iruma-kun-portada.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="" target="_blank" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
