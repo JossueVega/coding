@@ -11,7 +11,7 @@ class Noticia extends CI_Controller{
 
   function index()
   {
-    $datos = array('New' => $this->Poster_Model->Todos(), );
+    $datos = array('New' => $this->Noticia_Model->Todos(), );
     $this->load->view('layouts/head');
     $this->load->view('Noticia/index', $datos);
     $this->load->view('layouts/footer');
@@ -24,8 +24,8 @@ class Noticia extends CI_Controller{
   }
   public function Agregar()
   {
-    $Datos = array('titulo' => $this->input->post('titulo'), 'mensaje'=>$this->input->post('mensaje');, 'imag'=>$this->input->post('imag'));
-    if ($this->Poster_Model->Agregar($Datos)) {
+    $Datos = array('titulo' => $this->input->post('titulo'), 'mensaje'=>$this->input->post('mensaje'), 'imag'=>$this->input->post('imag'));
+    if ($this->Noticia_Model->Agregar($Datos)) {
       redirect(base_url().'Noticia/index');
     }
   }

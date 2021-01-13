@@ -137,73 +137,17 @@
       </div>
 
       <div class="row">
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch " data-aos="zoom-in" data-aos-delay="100">
-          <div class="icon-box border border-danger">
-            <div class="ratio ratio-4x3">
-              <img src="https://puregaming.es/wp-content/uploads/2020/12/Deluxe_Mockup_Steam.jpg" alt="" width="240px" height="150px">
+        <?php foreach ($New as $vals): ?>
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch " data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box border border-danger">
+              <div class="ratio ratio-4x3">
+                <img src="<?php echo $vals->imag; ?>" alt="" width="240px" height="150px">
+              </div>
+              <h4><a href=""><?php echo $vals->titulo; ?></a></h4>
+              <p><?php echo $vals->mensaje; ?></p>
             </div>
-            <h4><a href="">Little Nightmares II ya tiene demo disponible</a></h4>
-            <p>a demo de Little Nightmares II está disponible para PC desde hoy mismo para Steam y GOG.com. Permitiendo descubrir
-              el juego que se lanzará el 11 de febrero de 2021. En esta demo los jugadores se pondrán en la piel de Mono, quien se
-              despierta en un aterrador mundo desconocido.</p>
           </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
-          <div class="icon-box border border-danger">
-            <div class="ratio ratio-4x3">
-              <img src="https://allgamersin.com/wp-content/uploads/2020/10/WarRobots_art.jpg" alt="" width="240px" height="150px">
-            </div>
-            <h4><a href="">War Robots y Serius Sam 4 rompen barreras</a></h4>
-            <p>Pixonic, el estudio de MY.GAMES, se complace en presentar War Robots X Serious Sam 4. Un evento por tiempo limitado,
-              con motivo de la Navidad, disponible para War Robots en dispositivos iOS y Android.</p>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
-          <div class="icon-box border border-danger">
-            <div class="ratio ratio-4x3">
-              <img src="https://as.com/meristation/imagenes/2020/05/30/noticias/1590840192_019456_1590840269_noticia_normal.jpg" alt="" width="240px" height="150px">
-            </div>
-            <h4><a href="">¡Novedades de Minecraft Dungeons, Ray Tracing y más!</a></h4>
-            <p>Minecraft lanzó ayer oficialmente Minecraft con RTX para Windows 10, impulsado por NVIDIA. La beta ha concluido y
-              los jugadores ya pueden disfrutar gratis de Minecraft con ray tracing, que incluye píxeles emisores, reflejos en el
-              agua, sombras proyectadas con precisión y una rica iluminación global.</p>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
-          <div class="icon-box border border-danger">
-            <div class="ratio ratio-4x3">
-              <img src="https://as01.epimg.net/meristation/imagenes/2020/03/15/analisis/1584267295_465966_1584431774_portada_normal.jpg" alt="" width="240px" height="150px">
-            </div>
-            <h4><a href="">Persona 5 Strikers para PS4, Switch y Steam</a></h4>
-            <p>Persona 5 Strikers llegará a PlayStation 4, Nintendo Switch y Steam el 23 de febrero de 2021. La campaña de reserva
-              anticipada de las versiones digitales y físicas estará disponible a lo largo de este jueves 10 de diciembre.</p>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
-          <div class="icon-box border border-danger">
-            <div class="ratio ratio-4x3">
-              <img src="https://media.rockstargames.com/rockstargames-newsite/uploads/97eda5e7db29b21e5a817343440e034969743382.jpg" alt="" width="240px" height="150px">
-            </div>
-            <h4><a href="">GTA Online. Nuevo tráiler de Golpe a Cayo Perico</a></h4>
-            <p>Echad un vistazo al nuevo tráiler de la nueva aventura de GTA Online de 1 a 4 jugadores, Golpe a Cayo Perico,
-              disponible para descargar gratis el próximo martes 15 de diciembre.</p>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
-          <div class="icon-box border border-danger">
-            <div class="ratio ratio-4x3">
-              <img src="https://img.youtube.com/vi/x4BoyKLw1Mk/maxresdefault.jpg" alt="" width="240px" height="150px">
-            </div>
-            <h4><a href="">Red Dead Online: la Fugitiva Legendaria Carmela Montez</a></h4>
-            <p>El Salvaje Oeste de Red Dead Online está a punto de ser aún más un lugar sin ley después de ser avistada la líder de
-              la infame banda Del Lobo, Carmela Montez, en la zona de West Elizabeth.</p>
-          </div>
-        </div>
+        <?php endforeach; ?>
 
       </div>
 
@@ -244,132 +188,21 @@
       </div> -->
 
       <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+<?php foreach ($Ps as $valor): ?>
+  <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+    <div class="portfolio-wrap">
+      <img src="<?php echo $valor->imag; ?>" class="img-fluid" alt="">
+      <div class="portfolio-info">
+        <h4><?php echo $valor->titulo; ?></h4>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <div class="portfolio-wrap">
-            <img src="<?php echo base_url(); ?>Resources/images/portfolio/slime-portada.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Tensei shitara slime datta ken</h4>
-
-              <div class="portfolio-links">
-                <a href="<?php echo base_url(); ?>Resources/images/portfolio/slime-portada.jpg" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="bx bx-plus"></i></a>
-                <a href="https://i.pinimg.com/originals/27/dc/26/27dc26fff8e6a79dc6e2a530fe2af32e.png" target="_blank" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
+        <div class="portfolio-links">
+          <a href="<?php echo $valor->imag; ?>" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="bx bx-plus"></i></a>
+          <a href="<?php echo $valor->imag; ?>" target="_blank" title="More Details"><i class="bx bx-link"></i></a>
         </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-          <div class="portfolio-wrap">
-            <img src="<?php echo base_url(); ?>Resources/images/portfolio/dragon-ball.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Dragon ball super</h4>
-
-              <div class="portfolio-links">
-                <a href="<?php echo base_url(); ?>Resources/images/portfolio/dragon-ball.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
-                <a href="" target="_blank" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <div class="portfolio-wrap">
-            <img src="<?php echo base_url(); ?>Resources/images/portfolio/black-clover.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Black Clover</h4>
-
-              <div class="portfolio-links">
-                <a href="<?php echo base_url(); ?>Resources/images/portfolio/black-clover.jpg" data-gall="portfolioGallery" class="venobox" title="App 2"><i class="bx bx-plus"></i></a>
-                <a href="" target="_blank" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-          <div class="portfolio-wrap">
-            <img src="<?php echo base_url(); ?>Resources/images/portfolio/naruto.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Naruto</h4>
-
-              <div class="portfolio-links">
-                <a href="<?php echo base_url(); ?>Resources/images/portfolio/naruto.jpg" data-gall="portfolioGallery" class="venobox" title="Card 2"><i class="bx bx-plus"></i></a>
-                <a href="" target="_blank" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-          <div class="portfolio-wrap">
-            <img src="<?php echo base_url(); ?>Resources/images/portfolio/re-zero.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Re:Zero kara Hajimeru Isekai Seikatsu 2nd Season</h4>
-
-              <div class="portfolio-links">
-                <a href="<?php echo base_url(); ?>Resources/images/portfolio/re-zero.jpg" data-gall="portfolioGallery" class="venobox" title="Web 2"><i class="bx bx-plus"></i></a>
-                <a href="" target="_blank" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <div class="portfolio-wrap">
-            <img src="<?php echo base_url(); ?>Resources/images/portfolio/after-end.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>La vida despues de la muerte</h4>
-
-              <div class="portfolio-links">
-                <a href="<?php echo base_url(); ?>Resources/images/portfolio/after-end.jpg" data-gall="portfolioGallery" class="venobox" title="App 3"><i class="bx bx-plus"></i></a>
-                <a href="" target="_blank" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-          <div class="portfolio-wrap">
-            <img src="<?php echo base_url(); ?>Resources/images/portfolio/Tower-of-God-portada.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Tower of god</h4>
-
-              <div class="portfolio-links">
-                <a href="<?php echo base_url(); ?>Resources/images/portfolio/Tower-of-God-portada.jpg" data-gall="portfolioGallery" class="venobox" title="Card 1"><i class="bx bx-plus"></i></a>
-                <a href="" target="_blank" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-          <div class="portfolio-wrap">
-            <img src="<?php echo base_url(); ?>Resources/images/portfolio/Dr-Stone-Poster.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Dr Stone</h4>
-
-              <div class="portfolio-links">
-                <a href="<?php echo base_url(); ?>Resources/images/portfolio/Dr-Stone-Poster.jpg" data-gall="portfolioGallery" class="venobox" title="Card 3"><i class="bx bx-plus"></i></a>
-                <a href="" target="_blank" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-          <div class="portfolio-wrap">
-            <img src="<?php echo base_url(); ?>Resources/images/portfolio/Iruma-kun-portada.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Mairimashita iruma kun</h4>
-
-              <div class="portfolio-links">
-                <a href="<?php echo base_url(); ?>Resources/images/portfolio/Iruma-kun-portada.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
-                <a href="" target="_blank" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
+      </div>
+    </div>
+  </div>
+<?php endforeach; ?>
 
       </div>
 
