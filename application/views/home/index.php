@@ -138,7 +138,7 @@
 
       <div class="row">
         <?php foreach ($New as $vals): ?>
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch " data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-lg-4 mb-2 col-md-6 d-flex align-items-stretch " data-aos="zoom-in" data-aos-delay="100">
             <div class="icon-box border border-danger">
               <div class="ratio ratio-4x3">
                 <img src="<?php echo $vals->imag; ?>" alt="" width="240px" height="150px">
