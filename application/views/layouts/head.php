@@ -77,7 +77,7 @@
 
 
           <a href="<?php echo base_url(); ?>Poster/Create" class="get-started-btn scrollto">Posters</a>
-          <a href="<?php echo base_url(); ?>Noticia/Create" class="get-started-btn scrollto">Posters</a>
+          <a href="<?php echo base_url(); ?>Noticia/Create" class="get-started-btn scrollto">Noticias</a>
 
 
 
