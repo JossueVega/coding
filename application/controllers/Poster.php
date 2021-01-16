@@ -26,7 +26,7 @@ class Poster extends CI_Controller{
   {
     $Datos = array('titulo' => $this->input->post('titulo'), 'imag'=>$this->input->post('imag'));
     if ($this->Poster_Model->Agregar($Datos)) {
-      redirect(base_url().'Poster/index');
+      redirect(base_url().'home/index');
     }
   }
 }

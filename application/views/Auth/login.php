@@ -38,7 +38,7 @@
 				<form class="login100-form validate-form p-b-33 p-t-5" action="<?php echo base_url(); ?>Auth/Login" method="post">
 
 					<div class="wrap-input100 validate-input" data-validate = "Enter username">
-						<input class="input100" type="email" name="correo" placeholder="Nombre de usuario">
+						<input class="input100" type="email" name="correo" placeholder="Correo electronico">
 						<span class="focus-input100" data-placeholder="&#xe82a;"></span>
 					</div>
 

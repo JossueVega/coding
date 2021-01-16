@@ -26,7 +26,7 @@ class Noticia extends CI_Controller{
   {
     $Datos = array('titulo' => $this->input->post('titulo'), 'mensaje'=>$this->input->post('mensaje'), 'imag'=>$this->input->post('imag'));
     if ($this->Noticia_Model->Agregar($Datos)) {
-      redirect(base_url().'Noticia/index');
+      redirect(base_url().'home/index');
     }
   }
 }

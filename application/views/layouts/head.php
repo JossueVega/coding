@@ -75,7 +75,12 @@
         </ul>
       </nav><!-- .nav-menu -->
 
-      <a href="#about" class="get-started-btn scrollto">Get Started</a>
+
+          <a href="<?php echo base_url(); ?>Poster/Create" class="get-started-btn scrollto">Posters</a>
+          <a href="<?php echo base_url(); ?>Noticia/Create" class="get-started-btn scrollto">Posters</a>
+
+
+
 
     </div>
   </header><!-- End Header -->

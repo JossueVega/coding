@@ -134,6 +134,11 @@
       <div class="section-title">
         <h2>Noticias</h2>
         <p>Articulos rescientes</p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+          <?php if ($this->session->userdata('tipo')== 'administrador'): ?>
+            <button class="btn btn-primary me-md-2" type="button">Modificacion</button>
+          <?php endif; ?>
+        </div>
       </div>
 
       <div class="row">
@@ -174,6 +179,12 @@
       <div class="section-title">
         <h2>Mangas y animes</h2>
         <p>Top mensual</p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+          <?php if ($this->session->userdata('tipo')== 'administrador'): ?>
+            <a href="<?php echo base_url(); ?>Poster/index"></a>
+            <button class="btn btn-primary me-md-2" type="button">Modificacion</button>
+          <?php endif; ?>
+        </div>
       </div>
 
     <!--  <div class="row" data-aos="fade-up" data-aos-delay="100">

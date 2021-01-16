@@ -13,7 +13,13 @@ class Auth extends CI_Controller{
   function index()
   {
     if ($this->session->set_userdata('login')) {
-      redirect(base_url().'Home');
+      if ($$this->sesion->userdata('tipo')== 'administrador') {
+        redirect(base_url().'Home');
+      } else {if ($$this->sesion->userdata('tipo')== 'usurio') {
+        redirect(base_url().'Home');
+      }
+      }
+
     }
     else {
       $this->load->view('Auth/login');
