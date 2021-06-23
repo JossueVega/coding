@@ -6,12 +6,12 @@
 
     <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="150">
       <div class="col-xl-6 col-lg-8">
-        <h1>GetAnimePlay<span>.</span></h1>
-        <h2>Noticias de videjuegos y reseñas del mundo del anime</h2>
+        <h1>Virtual LibraryTec<span>.</span></h1>
+        <h2>Libros, Diccionarios, Articulos y mas...</h2>
       </div>
     </div>
 
-    <div class="row mt-5 justify-content-center" data-aos="zoom-in" data-aos-delay="250">
+    <!-- <div class="row mt-5 justify-content-center" data-aos="zoom-in" data-aos-delay="250">
       <div class="col-xl-2 col-md-4 col-6">
         <div class="icon-box">
           <i class="ri-store-line"></i>
@@ -36,13 +36,13 @@
           <h3><a href="#">Xtreme Pc</a></h3>
         </div>
       </div>
-      <!-- <div class="col-xl-2 col-md-4 col-6 mt-4 mt-xl-0">
+       <div class="col-xl-2 col-md-4 col-6 mt-4 mt-xl-0">
         <div class="icon-box">
           <i class="ri-database-2-line"></i>
           <h3><a href="">Nemos Enimade</a></h3>
         </div>
-      </div> -->
-    </div>
+      </div>
+    </div> -->
 
   </div>
 </section><!-- End Hero -->
@@ -55,20 +55,21 @@
 
       <div class="row">
         <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
-          <img src="https://cdn.atomix.vg/wp-content/uploads/2019/10/hero-rising-.jpg" class="img-fluid" alt="">
+          <img src="https://pbs.twimg.com/media/DxsSoNNVsAAJq9p.jpg" class="img-fluid" alt="">
         </div>
         <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
-          <h3>My hero academia (The movie) Heroes: Rising.  Reseña.</h3>
+          <h3>Informacion General</h3>
           <p class="font-italic">
-            Esta segunda película del famoso anime Boku no Hero Academia (también conocido como My Hero Academia) nos sitúa
-            en una isla en la que apenas suceden crímenes así que nuestro querido grupo de estudiantes se traslada allí
-            para ayudar a los isleños con pequeñas tareas y así mejorar como héroes. Hasta que, de manera repentina,
-            aparece un villano que lleva el caos a la isla y los héroes tienen que darlo todo para salvar a los habitantes.
+            El Bibliotecario del Congreso de los EE.UU. James H. Billington propuso la creación de la Biblioteca Digital
+            Mundial en un discurso dirigido a la Comisión Nacional de los EE.UU. para la UNESCO en junio de 2005. La idea
+            básica era crear una colección en Internet, de fácil acceso, de todos los tesoros culturales del mundo que
+            contaran las historias y destacaran los logros de todos los países y culturas, promoviendo así la sensibilización
+            y el entendimiento intercultural.
           </p>
           <p>
-            Hace tiempo vi la primera película que salió de esta serie (Boku no Hero Academia: Futari no Hero) y, a pesar
-            de que me gustó mucho, no me decidí a dedicarle una reseña. Sin embargo, creo que en esta ocasión la nueva
-            película que se ha estrenado tiene algún aspecto interesante que me apetece comentar.
+            En diciembre de 2006, la UNESCO y la Biblioteca del Congreso convocaron una reunión de expertos para discutir
+            el proyecto. Los expertos de todos los rincones del mundo reunidos identificaron una serie de retos que el proyecto
+            tendría que superar para tener éxito.
           </p>
         </div>
       </div>
@@ -132,16 +133,54 @@
     <div class="container" data-aos="fade-up">
 
       <div class="section-title">
-        <h2>Noticias</h2>
-        <p>Articulos rescientes</p>
+        <h2>Estanteria</h2>
+        <p>Articulos, libros y mas...</p>
         <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-          <?php if ($this->session->userdata('tipo')== 'administrador'): ?>
-            <button class="btn btn-primary me-md-2" type="button">Modificacion</button>
-          <?php endif; ?>
+          <div class="row">
+            <a href="<?php echo base_url(); ?>Libro/Create">Modificacion</a>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center mt-4 mb-4">
+        <div class="col-md-10">
+          <div class="card">
+            <div class="car-header bg-primary py-1">
+              <h5 class="m-0 text-white text-Center">Estanteria de libros</h5>
+            </div>
+            <div class="card-body">
+              <table class="table table-sm table-hover">
+                <thead>
+                  <tr>
+                    <th>Titulo</th>
+                    <th>Autor</th>
+                    <th>ISBM</th>
+                    <th>Categoria</th>
+                    <th>Editorial</th>
+                    <th>Edicion</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <?php foreach ($New as $c): ?>
+                    <tr>
+                      <td><?php echo $c->titulo ?></td>
+                      <td><?php echo $c->autor ?></td>
+                      <td><?php echo $c->isbm ?></td>
+                      <td><?php echo $c->categoria ?></td>
+                      <td><?php echo $c->editorial ?></td>
+                      <td><?php echo $c->edicion ?></td>
+                      <td>
+                        <a href="<?php echo base_url(); ?>Libro/Eliminar <?php echo $c ->id ?>" class="btn btn-danger" role="button" data-bs-toggle="button">Borrar</a>
+                      </td>
+                    </tr>
+                  <?php endforeach; ?>
+                </tbody>
+              </table>
+            </div>
+          </div>
         </div>
       </div>
 
-      <div class="row">
+      <!-- <div class="row">
         <?php foreach ($New as $vals): ?>
           <div class="col-lg-4 mb-2 col-md-6 d-flex align-items-stretch " data-aos="zoom-in" data-aos-delay="100">
             <div class="icon-box border border-danger">
@@ -154,10 +193,11 @@
           </div>
         <?php endforeach; ?>
 
-      </div>
+      </div> -->
 
     </div>
-  </section><!-- End Services Section -->
+  </section>
+  <!-- End Services Section -->
 
   <!-- ======= Cta Section ======= -->
   <!-- <section id="cta" class="cta">
@@ -173,7 +213,7 @@
   </section> --><!-- End Cta Section -->
 
   <!-- ======= Portfolio Section ======= -->
-  <section id="portfolio" class="portfolio">
+  <!-- <section id="portfolio" class="portfolio">
     <div class="container" data-aos="fade-up">
 
       <div class="section-title">
@@ -187,7 +227,7 @@
         </div>
       </div>
 
-    <!--  <div class="row" data-aos="fade-up" data-aos-delay="100">
+      <div class="row" data-aos="fade-up" data-aos-delay="100">
         <div class="col-lg-12 d-flex justify-content-center">
           <ul id="portfolio-flters">
             <li data-filter="*" class="filter-active">All</li>
@@ -196,7 +236,7 @@
             <li data-filter=".filter-web">Web</li>
           </ul>
         </div>
-      </div> -->
+      </div>
 
       <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
 <?php foreach ($Ps as $valor): ?>
@@ -218,4 +258,4 @@
       </div>
 
     </div>
-  </section><!-- End Portfolio Section -->
+  </section> --><!-- End Portfolio Section -->

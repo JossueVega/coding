@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>GetAnimePlay</title>
+  <title>Virtual LibraryTec</title>
   <meta content="" name="descriptison">
   <meta content="" name="keywords">
 
@@ -49,10 +49,10 @@
       <nav class="nav-menu d-none d-lg-block">
         <ul>
           <li class="active"><a href="<?php echo base_url(); ?>">Inicio</a></li>
-          <li><a href="#about">Serializacion</a></li>
-          <li><a href="#services">Noticias</a></li>
-          <li><a href="#portfolio">Mangas y animes</a></li>
-          <!--<li><a href="#team">Team</a></li>
+          <li><a href="#about">Informacion general</a></li>
+          <li><a href="#services">Estanteria</a></li>
+          <!--<<li><a href="#portfolio">Mangas y animes</a></li>
+          <li><a href="#team">Team</a></li>
           <li class="drop-down"><a href="">Drop Down</a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>
@@ -69,15 +69,15 @@
               <li><a href="#">Drop Down 3</a></li>
               <li><a href="#">Drop Down 4</a></li>
             </ul>
-          </li> -->
-          <li><a href="<?php echo base_url(); ?>Comentary/contact">Contactos</a></li>
+          </li>
+          <li><a href="<?php echo base_url(); ?>Comentary/contact">Contactos</a></li>-->
 
         </ul>
       </nav><!-- .nav-menu -->
 
 
-          <a href="<?php echo base_url(); ?>Poster/Create" class="get-started-btn scrollto">Posters</a>
-          <a href="<?php echo base_url(); ?>Noticia/Create" class="get-started-btn scrollto">Noticias</a>
+          <a href="<?php echo base_url(); ?>Auth/Login" class="get-started-btn scrollto">Iniciar secion</a>
+
 
 
 

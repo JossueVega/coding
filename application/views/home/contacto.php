@@ -18,19 +18,25 @@
           <div class="email">
             <i class="icofont-envelope"></i>
             <h4>E-mail:</h4>
-            <p>jossue.vega17@tectijuana.edu.mx</p>
+            <p>pablo.osuna16@tectijuana.edu.mx</p>
           </div>
 
           <div class="email">
             <i class="icofont-envelope"></i>
-            <h4>Otro E-mail:</h4>
-            <p>info@example.com</p>
+            <h4>E-mail:</h4>
+            <p>alvaro.grande18@tectijuana.edu.mx</p>
           </div>
 
-          <div class="phone">
-            <i class="icofont-phone"></i>
-            <h4>Telefono:</h4>
-            <p>+1 5589 55488 55s</p>
+          <div class="email">
+            <i class="icofont-envelope"></i>
+            <h4>E-mail:</h4>
+            <p>axel.garcia18@tectijuana.edu.mx</p>
+          </div>
+
+          <div class="email">
+            <i class="icofont-envelope"></i>
+            <h4>E-mail:</h4>
+            <p>jossue.vega17@tectijuana.edu.mx</p>
           </div>
 
         </div>
@@ -39,7 +45,7 @@
 
       <div class="col-lg-8 mt-5 mt-lg-0">
 
-        <form action="<?php echo base_url() ?>Comentary/Add" method="post" role="form" class="php-email-form">
+        <form action="" method="post" role="form" class="php-email-form">
           <div class="form-row">
             <div class="col-md-6 form-group">
               <input type="text" name="name" class="form-control" id="name" placeholder="Nombre" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />

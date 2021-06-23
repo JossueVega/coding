@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Noticia_Model extends CI_Model{
+class Libro_Model extends CI_Model{
 
   public function __construct()
   {
@@ -10,23 +10,23 @@ class Noticia_Model extends CI_Model{
   }
   public function Agregar($data)
   {
-    return $this->db->insert('noticias', $data);
+    return $this->db->insert('libros', $data);
 
   }
   public function Obtener($id)
   {
-    $this->db->where('idnoticia', $id);
-    return $this->db->get('noticias')->row();
+    $this->db->where('id_libro', $id);
+    return $this->db->get('libros')->row();
   }
   public function Todos()
   {
-    return $this->db->get('noticias')->result();
+    return $this->db->get('libros')->result();
 
   }
   public function Eliminar($id)
   {
-    $this->db->where('idnoticia', $id);
-    return $this->db->delete('noticias');
+    $this->db->where('id_libro', $id);
+    return $this->db->delete('libros');
   }
 
 }
