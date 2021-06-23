@@ -52,7 +52,7 @@
 					</div>
           <div class="mt-5 text-center ">
             <h6 class="text-dark">Necesita una cuenta para poder accesar, si no la tiene contacte con un administrador</h6>
-						<a href="<?php echo base_url(); ?>Auth/sign">sesion del administrador</a>
+						<!--<a href="<?php echo base_url(); ?>Auth/sign">sesion del administrador</a> -->
           </div>
 
 				</form>
